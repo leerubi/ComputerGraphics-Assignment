@@ -12,7 +12,7 @@ CPlayer::CPlayer()
 
 CPlayer::~CPlayer()
 {
-	delete this;
+	// delete this;
 }
 
 void CPlayer::setPlayerPositionX(float positionX)
