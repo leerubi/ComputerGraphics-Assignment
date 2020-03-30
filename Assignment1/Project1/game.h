@@ -28,7 +28,7 @@ CWall wall[50];
 //전체 갯수
 int total = 0;
 
-//벽 위치값의 오버플로우를 막기 위해 가장 앞에 있는 벽
+//벽 위치값의 오버플로우를 막기 위해 가장 앞에 있는 벽 //DJ-플레이어보다 왼쪽에 있는 벽?
 int front = 0;
 
 //방금까지 도둑 앞에 있었고 지금은 플레이어 바로 앞에 있는 벽의 인덱스
@@ -65,7 +65,7 @@ float previousPlayerPosition = 0.0;
 void init();
 void display();
 void reshape(int w, int h);
-void play(char** argv);
+void registerCallbackFunctions(char** argv);
 void moveWall();
 void selectPose(int key, int x, int y);
 void setObjectColor(int color);
