@@ -8,6 +8,8 @@
 
 using namespace std;
 
+//DJ - 뭔가 system, camera, player, wall, thief를 분리하고 main(game).cpp를 깔끔하게 만들고싶다
+
 void init() {
 	glClearColor(1.0, 1.0, 1.0, 1.0);
 	glShadeModel(GL_FLAT);
@@ -190,6 +192,7 @@ void message(bool success) {
 
 //Player - select pose using keyboard input
 void selectPose(int key, int x, int y) {
+	
 	switch (key) {
 	case GLUT_KEY_LEFT: //RED
 		player.setPlayerPose(RED);
@@ -206,6 +209,7 @@ void selectPose(int key, int x, int y) {
 	}
 	//gameMain.selectPose(key, x, y);
 	glutPostRedisplay();
+	
 }
 
 //Register input callback functions

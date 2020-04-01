@@ -8,14 +8,17 @@ private:
 	int color;
 	float width;
 	float height;
-	int front;
+	int front; //DJ - ?
 public:
 	CWall();
 	~CWall();
+	
 	void setWallPositionX(float positionX);
 	float getWallPositionX();
+	
 	void setWallPositionY(float positionY);
 	float getWallPositionY();
+	
 	void setWallColor(int color);
 	int getWallColor();
 

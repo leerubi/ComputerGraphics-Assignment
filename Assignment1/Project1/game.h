@@ -14,6 +14,8 @@
 #include <tchar.h>
 
 
+//DJ - 여기가 시스템 격이구나
+
 CONST TCHAR* lpszClass = _T("Message Box!\n");
 
 
