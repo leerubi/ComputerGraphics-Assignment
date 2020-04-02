@@ -1,12 +1,11 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(445,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
-  CGameMain.cpp
   game.cpp
-D:\GraphicsWorkspace\ASSN1\Assignment1\Project1\game.h(50,22): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
-D:\GraphicsWorkspace\ASSN1\Assignment1\Project1\game.h(61,27): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
-D:\GraphicsWorkspace\ASSN1\Assignment1\Project1\game.cpp(14,33): warning C4244: '=': 'ULONGLONG'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\GraphicsWorkspace\ASSN1\Assignment1\Project1\game.cpp(51,36): warning C4244: '=': 'ULONGLONG'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\GraphicsWorkspace\ASSN1\Assignment1\Project1\game.cpp(53,64): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\GraphicsWorkspace\ASSN1\Assignment1\Project1\game.cpp(149,20): warning C4305: '+=': 'double'에서 'float'(으)로 잘립니다.
-D:\GraphicsWorkspace\ASSN1\Assignment1\Project1\game.cpp(223,34): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
-  코드를 생성하고 있습니다...
-  Project1.vcxproj -> D:\GraphicsWorkspace\ASSN1\Assignment1\Project1\bin\x86\Assignment1.exe
+D:\GraphicsWorkspace\ComputerGraphics-Assignment\Assignment1\Project1\game.h(32,22): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+D:\GraphicsWorkspace\ComputerGraphics-Assignment\Assignment1\Project1\game.h(41,27): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+D:\GraphicsWorkspace\ComputerGraphics-Assignment\Assignment1\Project1\game.cpp(15,33): warning C4244: '=': 'ULONGLONG'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GraphicsWorkspace\ComputerGraphics-Assignment\Assignment1\Project1\game.cpp(114,36): warning C4244: '=': 'ULONGLONG'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GraphicsWorkspace\ComputerGraphics-Assignment\Assignment1\Project1\game.cpp(117,66): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GraphicsWorkspace\ComputerGraphics-Assignment\Assignment1\Project1\game.cpp(173,21): warning C4305: '+=': 'double'에서 'float'(으)로 잘립니다.
+D:\GraphicsWorkspace\ComputerGraphics-Assignment\Assignment1\Project1\game.cpp(191,20): warning C4305: '+=': 'double'에서 'float'(으)로 잘립니다.
+D:\GraphicsWorkspace\ComputerGraphics-Assignment\Assignment1\Project1\game.cpp(272,32): warning C4244: '=': 'ULONGLONG'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Project1.vcxproj -> D:\GraphicsWorkspace\ComputerGraphics-Assignment\Assignment1\Project1\bin\x86\Assignment1.exe

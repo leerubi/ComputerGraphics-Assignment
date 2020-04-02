@@ -1,7 +1,5 @@
 #include "CPlayer.h"
 
-
-
 CPlayer::CPlayer()
 {
 	positionX = 1;
@@ -12,7 +10,6 @@ CPlayer::CPlayer()
 
 CPlayer::~CPlayer()
 {
-	// delete this;
 }
 
 void CPlayer::setPlayerPositionX(float positionX)

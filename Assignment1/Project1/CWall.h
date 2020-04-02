@@ -8,7 +8,8 @@ private:
 	int color;
 	float width;
 	float height;
-	int front; //DJ - ?
+	int front;
+
 public:
 	CWall();
 	~CWall();
